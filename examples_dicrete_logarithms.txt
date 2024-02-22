@@ -1,0 +1,21 @@
+	alfa^x = beta (mod p)
+        
+        example for every algorithm:
+            2^x = 9 (mod 11) --> even x = 6
+            2^x = 37 (mod 131) --> odd x = 41
+            2^x = 65 (mod 98) --> not exists
+            2^x = 525 (mod 809) --> not exists
+            2^x = 70 (mod 131) --> odd x = 13
+	    2^x = 424242 (mod 5041259) --> even x = 5142
+	    2^x = 11 (mod 59) --> odd x = 25
+        example for ER and BSGS:
+            3^x = 57 (mod 113) --> x = 100
+            5^x = 424242 (mod 87993167) --> x = odd 38890243
+            2^x = 424242 (mod 1726565507) -->   x = 1279004412
+        example for Pollard's Rho:
+            5^x = 424242 (mod 87993167) --> x = odd 38890243
+            2^x = 424242 (mod 1726565507) -->   x = 1279004412
+        example for Pohlig-Hellman:
+            71^x = 210 (mod 251) --> x = 197
+	    7^x = 166 (mod 433) --> x = 47
+	    6^x = 7531 (mod 8101) --> x = 6689
